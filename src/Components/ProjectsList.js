@@ -17,12 +17,12 @@ export default function ProjectsList() {
             </div>
             <Project 
             name={'TodoList Web App'}
-            imgSrc={'/TodoList_App_Preview.png'}
+            imgSrc={process.env.PUBLIC_URL +'/TodoList_App_Preview.png'}
             link={'https://fishtomato.github.io/Todo-App/'}
             ghLink = {'https://github.com/FishTomato/Todo-App'}/>
             <Project 
             name={'Sorting Visualizer'}
-            imgSrc={'/Sorting_Algorithm_Preview.png'}
+            imgSrc={process.env.PUBLIC_URL +'/Sorting_Algorithm_Preview.png'}
             link={'https://fishtomato.github.io/Sorting-Visualizer/'}
             ghLink={'https://github.com/FishTomato/Sorting-Visualizer'}/>
         </div>
