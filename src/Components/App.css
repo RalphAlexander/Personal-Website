@@ -34,7 +34,8 @@ h4 {
 	display: grid;
 	grid-template-columns: 30% 70%;
 	grid-template-areas:
-	"img txt";
+	'img subhead'
+	'img txt';
 }
 
 .img-container {
@@ -50,17 +51,20 @@ h4 {
 	box-shadow: 0.5em 0.5em 0.5em 0 #0000003d;
 }
 
-.about-me-header {
-	color: #4B4E52;
-	font-size: 28px;
-  	font-family: 'Nunito', sans-serif;
+.about-me-subhead {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+  	color:#4B4E52;
+	margin: 10px 30px 20px 30px;
+	font-size: 27px;
+	grid-area: subhead;
 }
 
 .about-me-body {
   grid-area: txt;
   font-family: 'Poppins', sans-serif;
   color:#4B4E52;
-  margin: 0 4vw 0 2vw;
+  margin: 0 30px;
   font-size: 17px;
   text-align: justify;
 }
