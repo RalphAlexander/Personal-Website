@@ -20,7 +20,7 @@ export default function AboutMe() {
                 programs and algorithms such as a sorting visualizer and a Sudoku Solver.
                 In the midst of building projects, I eventually learnt Web development
                 from basic HTML and CSS to frontend frameworks such as ReactJS, and eventually
-                leading to NoSQL databases and a backend language, NodeJS and some libraries.
+                leading to NoSQL databases and a backend language, NodeJS and some popular libraries.
             </p>
         </div>
     </>
