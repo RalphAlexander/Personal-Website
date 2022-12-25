@@ -11,21 +11,23 @@ export default function Project({
     imgSrc,
     link,
     ghLink
-}){
+}) {
     return (
-        <div className='project-card'>
-            <div className='card-header'> 
-                <a href={link}> 
-                    {name}
-                 </a>
-                 <a href={ghLink}>
-                     <img 
-                         className='gh-icon' 
-                         src={process.env.PUBLIC_URL + '/GitHub-Mark-32px.png'} />
-                 </a>
-            </div>
-            <div className='project-img'>
-                <img src={imgSrc} className='project-img'/>        
+        <div className='project-card-container'>
+            <div className='project-card'>
+                <div className='card-header'>
+                    <a href={link}>
+                        {name}
+                    </a>
+                    <a href={ghLink}>
+                        <img
+                            className='gh-icon'
+                            src={process.env.PUBLIC_URL + '/GitHub-Mark-32px.png'} />
+                    </a>
+                </div>
+                <div className='project-img'>
+                    <img src={imgSrc} className='project-img' />
+                </div>
             </div>
         </div>
     )

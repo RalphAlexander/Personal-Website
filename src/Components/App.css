@@ -1,9 +1,14 @@
+:root {
+	/* background colors */
+	--bg-main: #1D3557;
+}
+
 * {
   	margin:0;
 }
 
 body {
-	background-color: #1D3557;
+	background-color: var(--bg-main);
 	z-index: -5;  
 }
 
@@ -13,7 +18,7 @@ h1 {
 	margin: 2rem 0.4em 0.2em;
 	font-family: 'Poppins', sans-serif;
 	font-size: 64px;
-	color: #1D3557;
+	color: var(--bg-main);
   }
 
   
@@ -25,6 +30,10 @@ h3 {
 
 h4 {
 	margin-right: 1rem;
+}
+
+.body {
+	min-height: 95vh;
 }
 
 .about-me-grid {
@@ -108,23 +117,15 @@ h4 {
   font-family: 'Nunito', sans-serif;
 }
 
-
-
-.project-grid {
-	background-color: #1D3557;
-	max-width: 100%;
-	grid-template-columns: 50% 50%;
+.projects-container {
 	display: grid;
-	margin: auto;
-	padding-bottom: 3rem;
-	grid-template-areas:
-	'txt txt'
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 3rem;
+	margin: 0 1rem 4rem 1rem;
 }
 
 .project-body {
   color:white;
-  margin-left: 1.2rem;
-  margin-right: 0.3rem;
   margin-bottom: 1.5em;
   text-align: center;
   font-size: 22px;
@@ -134,12 +135,23 @@ h4 {
 .project-header {
 	grid-area: txt;
 	margin-top:1rem;
-	
+}
+.project-card-container{
+	width:100%;
+	display: flex;
+}
+
+.project-card-container:nth-child(even){
+	justify-content: flex-start;
+}
+
+.project-card-container:nth-child(odd){
+	justify-content: flex-end;
 }
 
 .project-card {
+	display: flex;
 	box-shadow: 0.7rem 0.7rem 0 0 #00000072;
-	margin: auto;
 	align-items: center;
   	background:  #84B6F7;
   	z-index: 1;
@@ -286,6 +298,14 @@ h4 {
   ::-webkit-scrollbar-thumb:hover {
 	background: #525b69; 
   }
+
+  @media screen and (max-width: 1100px) {
+	html {
+	  width: 1100px;
+	  overflow-x: auto;
+	}
+  }
+
 
   /* Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),
 with Reserved Font Name Nunito.

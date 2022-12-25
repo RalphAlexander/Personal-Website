@@ -3,7 +3,7 @@
 export default function AboutMe() {
   return (
     <>
-        <div class='about-me-grid'>
+        <div className='about-me-grid'>
             <div className='img-container'>
                 <img 
                     src={process.env.PUBLIC_URL +'/ProfileImageSource.jpg'}
@@ -18,8 +18,9 @@ export default function AboutMe() {
                 shifted towards programing and building programs from the very basics 
                 such as a simple calculator and rock, paper, scissors to more complex 
                 programs and algorithms such as a sorting visualizer and a Sudoku Solver.
-                In the midst of building projects, I eventually learnt web development
-                from basic HTML and CSS eventually leading to frameworks such as ReactJS.
+                In the midst of building projects, I eventually learnt Web development
+                from basic HTML and CSS to frontend frameworks such as ReactJS, and eventually
+                leading to NoSQL databases and a backend language, NodeJS and some libraries.
             </p>
         </div>
     </>

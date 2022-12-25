@@ -9,10 +9,12 @@ import './App.css';
 function App() {
 	return (
 		<div>
-			<AboutMe />
-			<ProjectsList />
-			<Divider />
-			<Skillsets />
+			<div className='body'>
+				<AboutMe />
+				<ProjectsList />
+				<Divider />
+				<Skillsets />
+			</div>
 			<Footer />
 		</div>
 	);
