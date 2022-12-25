@@ -3,10 +3,8 @@ import Project from "./Project"
 // Returns a component which renders a list of projects alongisde a header
 // and subheader
 export default function ProjectsList() {
-
     return (
         <>
-
             <div className='project-header'>
                 <h3 className='header'>
                     Projects

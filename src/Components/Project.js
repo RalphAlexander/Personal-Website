@@ -1,6 +1,6 @@
 // @param name - name of the project
-// @param imgSrc - the filepath of an image to be rendered in the 
-//project component
+// @param imgSrc - the filepath of an image to be rendered in the
+// project component
 // @param link - the link to the website of the project if applicable
 // @param ghLink - the link to the GitHub repo of the project
 //

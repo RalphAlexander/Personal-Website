@@ -305,6 +305,20 @@ h4 {
 	  overflow-x: auto;
 	}
   }
+  @media screen and (min-width: 1600px) {
+	.projects-container {
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		grid-gap: 3rem;
+		margin: 0 4rem 4rem 4rem;
+	}
+	.project-card-container:nth-child(even){
+		justify-content: center;
+	}
+	.project-card-container:nth-child(odd){
+		justify-content: center;
+	}
+  }
 
 
   /* Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),
