@@ -218,6 +218,27 @@ h4 {
 	border-radius: 5px 0 0 5px;
 	grid-area: bar;
 }
+.eighty{
+	margin: 0.25rem 0;
+	background-color: #66CB8C;
+	width: 80%;
+	border-radius: 5px 0 0 5px;
+	grid-area: bar;
+}
+.ninety{
+	margin: 0.25rem 0;
+	background-color: #66CB8C;
+	width: 90%;
+	border-radius: 5px 0 0 5px;
+	grid-area: bar;
+}
+.hundred{
+	margin: 0.25rem 0;
+	background-color: #66CB8C;
+	width: 100%;
+	border-radius: 5px 0 0 5px;
+	grid-area: bar;
+}
 
 .footer {
 	padding-top: 1rem;

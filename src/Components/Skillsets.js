@@ -20,12 +20,18 @@ export default function Skillsets() {
                         rating={'sixty'} />
                     <Skill
                         name={'HTML, CSS, JavaScript'}
-                        rating={'fifty'} />
+                        rating={'sixty'} />
+                    <Skill name={'C++'}
+                        rating={'sixty'} />
                     <Skill
                         name={'Java'}
                         rating={'fifty'} />
-                    <Skill name={'C++'}
-                        rating={'thirty'} />
+                    <Skill
+                        name={'PostgreSQL'}
+                        rating={'fifty'} />
+                    <Skill 
+                        name={'MongoDB'}
+                        rating={'fifty'} />
                 </div>
             </div>
         </>

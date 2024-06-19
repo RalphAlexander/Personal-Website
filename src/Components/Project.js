@@ -9,6 +9,7 @@
 export default function Project({
     name,
     imgSrc,
+    imgAlt,
     link,
     ghLink
 }) {
@@ -22,11 +23,12 @@ export default function Project({
                     <a href={ghLink}>
                         <img
                             className='gh-icon'
-                            src={process.env.PUBLIC_URL + '/GitHub-Mark-32px.png'} />
+                            src={process.env.PUBLIC_URL + '/GitHub-Mark-32px.png'}
+                            alt = 'Github Logo' />
                     </a>
                 </div>
                 <div className='project-img'>
-                    <img src={imgSrc} className='project-img' />
+                    <img src={imgSrc} className='project-img' alt={imgAlt}/>
                 </div>
             </div>
         </div>

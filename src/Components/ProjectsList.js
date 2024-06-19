@@ -17,23 +17,27 @@ export default function ProjectsList() {
                 <Project
                     name='TodoList Web App'
                     imgSrc={process.env.PUBLIC_URL + '/TodoList_App_Preview.png'}
-                    link='https://fishtomato.github.io/Todo-App/'
-                    ghLink='https://github.com/FishTomato/Todo-App' />
+                    imgAlt='Todo List Project Preview'
+                    link='https://RalphAlexander.github.io/Todo-App/'
+                    ghLink='https://github.com/RalphAlexander/Todo-App' />
                 <Project
                     name='Sorting Visualizer'
                     imgSrc={process.env.PUBLIC_URL + '/Sorting_Algorithm_Preview.png'}
-                    link='https://fishtomato.github.io/Sorting-Visualizer/'
-                    ghLink='https://github.com/FishTomato/Sorting-Visualizer' />
+                    imgAlt='Sorting Visualizer Project Preview'
+                    link='https://RalphAlexander.github.io/Sorting-Visualizer/'
+                    ghLink='https://github.com/RalphAlexander/Sorting-Visualizer' />
                 <Project
                     name='Seasonal Anime Calendar'
                     imgSrc={process.env.PUBLIC_URL + '/Seasonal_Anime_Calendar.png'}
-                    link='https://fishtomato.github.io/Seasonal-Anime-Calendar/'
-                    ghLink='https://github.com/FishTomato/Seasonal-Anime-Calendar' />
+                    imgAlt='Seasonal Anime Calendar Project Preview'
+                    link='https://RalphAlexander.github.io/Seasonal-Anime-Calendar/'
+                    ghLink='https://github.com/RalphAlexander/Seasonal-Anime-Calendar' />
                 <Project
                     name='Card Shuffling Visualizer'
                     imgSrc={process.env.PUBLIC_URL + '/Shuffle_Visualizer.png'}
-                    link='https://fishtomato.github.io/shuffle-visualizer/'
-                    ghLink='https://github.com/FishTomato/shuffle-visualizer' />
+                    imgAlt='Card Shuffling Visualizer Project Preview'
+                    link='https://RalphAlexander.github.io/shuffle-visualizer/'
+                    ghLink='https://github.com/RalphAlexander/shuffle-visualizer' />
             </div>
 
         </>
